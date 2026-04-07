@@ -1,0 +1,72 @@
+
+
+1. TIPO_PARQUE
+nombre_tipo_parque (Llave Primaria)
+2. PARQUE
+nombre_parque (Llave Primaria)
+direccion
+comuna
+area_m2
+estado_general
+nombre_tipo_parque
+3. ESPACIO_ZONA
+nombre_espacio (Llave Primaria)
+nombre_parque (Llave Primaria)
+4. ELEMENTO_INFRAESTRUCTURA
+nombre_elemento (Llave Primaria)
+nombre_parque (Llave Primaria)
+nombre_espacio
+cantidad
+estado
+
+
+5. RESPONSABLE
+nombre_responsable (Llave Primaria)
+cargo_empleo
+telefono
+correo
+6. TIPO_MANTENIMIENTO
+nombre_tipo_mantenimiento (Llave Primaria)
+7. ACTIVIDAD_MANTENIMIENTO
+nombre_parque (Llave Primaria)
+nombre_elemento (Llave Primaria)
+fecha_programada (Llave Primaria)
+nombre_responsable
+nombre_tipo_mantenimiento
+fecha_ejecucion
+estado
+
+
+8. ROL
+nombre_rol (Llave Primaria)
+9. USUARIO
+correo (Llave Primaria)
+nombre_rol
+nombre
+contrasena
+fecha_registro
+estado_usuario
+10. CIUDADANO
+documento_identidad (Llave Primaria)
+correo_usuario
+telefono
+
+11. TIPO_INCIDENTE
+nombre_tipo_incidente (Llave Primaria)
+12. INCIDENTE
+fecha_hora (Llave Primaria)
+documento_ciudadano (Llave Primaria)
+nombre_parque
+nombre_tipo_incidente
+evidencia
+estado
+prioridad
+
+
+13. AUDITORIA
+fecha_change (Llave Primaria)
+correo_usuario (Llave Primaria)
+tabla_afectada
+accion
+
+
