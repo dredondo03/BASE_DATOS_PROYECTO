@@ -1,0 +1,46 @@
+RESTRICCIONES 
+
+
+Explicar qué restricciones tiene la funcionalidad, por ejemplo, solo funciona para el sistema de parques de Colombia.
+El sistema solo aplica a parques dentro del área urbana de Bucaramanga.
+Solo usuarios registrados pueden reportar incidentes.
+Cada incidente debe estar asociado a un único parque.
+Un mantenimiento debe estar asociado obligatoriamente a un parque.
+Los roles están predefinidos (no pueden ser arbitrarios).
+Los elementos del inventario deben pertenecer a un parque existente.
+
+
+	
+	
+
+
+
+
+
+
+RIESGOS  
+Detallar los riesgos que identifica con la solución.
+Registro de datos incorrectos por parte de usuarios.
+Duplicidad de incidentes reportados.
+Falta de actualización del estado de mantenimiento.
+Baja participación ciudadana.
+Información incompleta en el inventario.
+Dependencia de la correcta asignación de roles.
+
+
+IMPACTO 
+Detallar el impacto de la solución a nivel de factores de salud, seguridad y bienestar público al resolver el enunciado.
+Mejora la organización de la información de parques.
+Facilita la toma de decisiones basada en datos.
+Permite priorizar el mantenimiento según incidentes.
+Aumenta la participación ciudadana.
+Mejora la seguridad y el estado de los parques.
+Apoya la planificación urbana.
+
+CONSIDERACIONES
+Detallar factores globales, culturales, sociales, ambientales y económicos al resolver el enunciado
+Sociales: la participación ciudadana puede variar según la cultura digital.
+Culturales: percepción del cuidado de espacios públicos.
+Económicas: recursos limitados para mantenimiento.
+Ambientales: impacto de zonas verdes en la calidad de vida.
+Organizacionales: coordinación entre entidades públicas.
